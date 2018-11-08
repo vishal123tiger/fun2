@@ -1,33 +1,30 @@
 {
   "name": "fun2",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
   "dependencies": {
+    "@material-ui/core": "^3.4.0",
     "clarifai": "^2.8.0",
-    "font-awesome": "^4.7.0",
-    "material-ui": "^0.20.2",
+    "latest-version": "^4.0.0",
     "react": "^16.4.2",
-    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.4.2",
+    "react-fa-icon": "^0.1.4",
     "react-particles-js": "^2.3.0",
-    "react-scripts": "1.1.4",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^1.1.4",
+    "react-text-loop": "^1.1.0",
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vishal123tiger/fun2.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
