@@ -10,7 +10,8 @@ class  Profile extends React.Component{
   constructor(){
     super();
     this.state={
-      img:''
+      img:'',
+      expanded: false
     }
      this.handleUploadImage = this.handleUploadImage.bind(this);
   }
@@ -70,7 +71,7 @@ return(
        <p><i className="fa fa-phone" style={{color:"blue"}}></i>8696429337</p>
        <p><i className="fa fa-globe" style={{color:"green"}}></i>vis@gmail.com</p>
        <p><i className="fa fa-bell" style={{color:"red"}}></i>Request</p>
-       <p><i className="fa fa-database" style={{color:"white"}}></i>Skills</p>
+       <p><i className="fa fa-database" style={{color:"white"}}></i>Skills<i className="fa fa-heart" onClick={}></i></p>
        </div>
 
 
